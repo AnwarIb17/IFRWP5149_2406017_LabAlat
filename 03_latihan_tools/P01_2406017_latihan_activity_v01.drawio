@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="-SRVMtS8snpi1jTL6RQw">
+    <mxGraphModel dx="975" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-3" edge="1" parent="1" source="P6WkJES2vGqMXdy00Hk7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P6WkJES2vGqMXdy00Hk7-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-1" parent="1" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="250" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-5" edge="1" parent="1" source="P6WkJES2vGqMXdy00Hk7-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="P6WkJES2vGqMXdy00Hk7-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-2" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=light-dark(#333333,#FFFFFF);strokeColor=#666666;" value="&lt;span style=&quot;&quot;&gt;Buka daftar peralatan&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-8" edge="1" parent="1" source="P6WkJES2vGqMXdy00Hk7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="P6WkJES2vGqMXdy00Hk7-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-4" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" value="Lihat Informasi Ketersediaan" vertex="1">
+          <mxGeometry height="60" width="120" x="205" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="P6WkJES2vGqMXdy00Hk7-6" parent="1" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="250" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

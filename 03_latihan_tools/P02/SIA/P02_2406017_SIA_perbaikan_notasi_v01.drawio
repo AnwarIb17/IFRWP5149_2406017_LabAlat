@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="xv4Z90Zm1iIDHW8-y5Sk">
+    <mxGraphModel dx="1414" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L-6go1TaXXxEN1ZDhNak-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=220;height=70;" value="sistem informasi peminjaman dan pengembalian peralatan labolatorium kampus" vertex="1">
+          <mxGeometry height="680" width="540" x="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="L-6go1TaXXxEN1ZDhNak-12" parent="L-6go1TaXXxEN1ZDhNak-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Kelola Jadwa Kuliah" vertex="1">
+          <mxGeometry height="80" width="120" x="230" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="vK7fhtjls2jHsUd7IHh6-3" parent="L-6go1TaXXxEN1ZDhNak-1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="lihat jadwal kuliah" vertex="1">
+          <mxGeometry height="60" width="120" x="310" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="L-6go1TaXXxEN1ZDhNak-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="130" width="70" x="200" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="L-6go1TaXXxEN1ZDhNak-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin akademik" vertex="1">
+          <mxGeometry height="130" width="70" x="740" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="vK7fhtjls2jHsUd7IHh6-2" edge="1" parent="1" source="L-6go1TaXXxEN1ZDhNak-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" target="L-6go1TaXXxEN1ZDhNak-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

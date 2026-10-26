@@ -1,5 +1,5 @@
 ID artefak : 04
-Judul : UUSE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN COLLABORATION
+Judul : USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN COLLABORATION
 Pertemuan : 4
 Sumber skenario : Sistem Informasi Peminjaman dan Pengembalian Peralatan Laboratorium Kampus
 Jenis/status : latihan

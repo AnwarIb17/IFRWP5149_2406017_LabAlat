@@ -3,20 +3,17 @@
 Identitas: 2406017 — Anwar Ibrahim
 Kakas: draw.io
 
-## Status
+Tanggal : 28-9-2026
+Status : Pertemuan 1 - Pengenalan Lingkungan Praktikum dan Kakas Pemodelan UML
 
-- Pertemuan 1: selesai
-- Pertemuan 2: selesai
-- Pertemuan 3: selesai
-- Pertemuan 4: Use Case Diagram Lanjutan — Generalization dan Collaboration
-  - Studi kasus LAB: selesai (v01)
-  - Tugas SIA — Layanan Hasil Studi: selesai (v01), menunggu review sebelum push
+Tanggal : 05-10-2026
+Status : Pertemuan 2 - Latihan notasi fungsi laboratorium
 
-## Berkas utama Pertemuan 4 (SIA)
+Tanggal : 12-10-2026
+Status : Pertemuan 3 - USE CASE DIAGRAM DAN USE CASE DESCRIPTION
 
-- `01_skenario/P04_SIA_kebutuhan_v01.md`
-- `01_skenario/P04_SIA_skenario_v01.md`
-- `04_model_analisis/P04/SIA/P04_2406017_SIA_usecase_v01.drawio`
-- `04_model_analisis/P04/SIA/P04_2406017_SIA_usecase_v01.png`
-- `04_model_analisis/P04/SIA/P04_2406017_SIA_metadata_v01.md`
-- `00_administrasi/P04_2406017_logbook_v01.md`
+Tanggal : 19-10-2026
+Status : Pertemuan 4 - USE CASE DIAGRAM LANJUTAN: GENERALIZATION DAN COLLABORATION
+
+Tanggal : 26-10-2026
+Status : Pertemuan 5 - SKENARIO USE CASE: DARI DIAGRAM KE LANGKAH KEGIATAN

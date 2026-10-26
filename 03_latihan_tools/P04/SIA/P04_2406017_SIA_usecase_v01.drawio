@@ -1,0 +1,130 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="SIA-UseCase-P04" id="SIAUC-P04-2406017">
+    <mxGraphModel dx="1200" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SIA-FRAME" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=0;collapsible=0;width=200;fillColor=none;" value="Sistem Informasi Akademik" vertex="1">
+          <mxGeometry height="860" width="1010" x="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AKT-CIV" parent="1" style="shape=umlActor;verticalLabelPosition=top;verticalAlign=bottom;html=1;" value="Civitas Akademika" vertex="1">
+          <mxGeometry height="60" width="30" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AKT-MHS" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AKT-DOS" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AKT-ADM" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="60" width="30" x="1300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AKT-DW" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen Wali" vertex="1">
+          <mxGeometry height="60" width="30" x="1300" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC01" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC01&#xa;Lihat Jadwal Kuliah" vertex="1">
+          <mxGeometry height="70" width="160" x="470" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC02" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC02&#xa;Kelola Jadwal Kuliah" vertex="1">
+          <mxGeometry height="70" width="180" x="980" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC03" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC03&#xa;Ajukan KRS" vertex="1">
+          <mxGeometry height="80" width="160" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC04" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC04&#xa;Validasi KRS" vertex="1">
+          <mxGeometry height="80" width="170" x="680" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC05" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC05&#xa;Unduh Bukti&#xa;Pengajuan KRS" vertex="1">
+          <mxGeometry height="80" width="170" x="320" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC06" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC06&#xa;Proses Keputusan KRS" vertex="1">
+          <mxGeometry height="80" width="190" x="980" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC07" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC07&#xa;Lihat Kalender Akademik" vertex="1">
+          <mxGeometry height="70" width="190" x="650" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC08" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC08&#xa;Input Nilai Mata Kuliah" vertex="1">
+          <mxGeometry height="80" width="190" x="620" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC09" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC09&#xa;Lihat KHS" vertex="1">
+          <mxGeometry height="80" width="170" x="320" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC10&#xa;Kelola Data Mahasiswa" vertex="1">
+          <mxGeometry height="80" width="200" x="980" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC11&#xa;Tambah Data Mahasiswa" vertex="1">
+          <mxGeometry height="80" width="170" x="700" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC12&#xa;Ubah Data Mahasiswa" vertex="1">
+          <mxGeometry height="80" width="170" x="900" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-UC13" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="SIA-UC13&#xa;Hapus Data Mahasiswa" vertex="1">
+          <mxGeometry height="80" width="155" x="1080" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-CO01" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" value="SIA-CO01&#xa;Input Nilai Mata Kuliah" vertex="1">
+          <mxGeometry height="70" width="220" x="850" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-CO02" parent="1" style="ellipse;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fillColor=none;" value="SIA-CO02&#xa;Lihat KHS" vertex="1">
+          <mxGeometry height="70" width="180" x="540" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-CIV-07" edge="1" parent="1" source="SIA-AKT-CIV" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.2;exitDx=0;exitDy=0;entryX=0;entryY=0.9;entryDx=0;entryDy=0;" target="SIA-UC07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-MHS-01" edge="1" parent="1" source="SIA-AKT-MHS" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-MHS-03" edge="1" parent="1" source="SIA-AKT-MHS" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-MHS-05" edge="1" parent="1" source="SIA-AKT-MHS" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-MHS-09" edge="1" parent="1" source="SIA-AKT-MHS" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-DOS-08" edge="1" parent="1" source="SIA-AKT-DOS" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-ADM-02" edge="1" parent="1" source="SIA-AKT-ADM" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-ADM-10" edge="1" parent="1" source="SIA-AKT-ADM" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-AS-DW-06" edge="1" parent="1" source="SIA-AKT-DW" style="edgeStyle=none;curved=0;rounded=0;curveGeometry=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-GEN-MHS-CIV" edge="1" parent="1" source="SIA-AKT-MHS" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-AKT-CIV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-GEN-DOS-CIV" edge="1" parent="1" source="SIA-AKT-DOS" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-AKT-CIV">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-INC-03-04" edge="1" parent="1" source="SIA-UC03" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=11;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC04" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-EXT-05-03" edge="1" parent="1" source="SIA-UC05" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=11;startSize=8;endSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="SIA-UC03" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-INC-01-02" edge="1" parent="1" source="SIA-UC01" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;fontSize=11;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-GEN-11-10" edge="1" parent="1" source="SIA-UC11" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.3;entryY=1;entryDx=0;entryDy=0;" target="SIA-UC10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-GEN-12-10" edge="1" parent="1" source="SIA-UC12" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="SIA-UC10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-GEN-13-10" edge="1" parent="1" source="SIA-UC13" style="edgeStyle=none;html=1;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.7;entryY=1;entryDx=0;entryDy=0;" target="SIA-UC10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-REAL-CO01-08" edge="1" parent="1" source="SIA-CO01" style="html=1;endArrow=block;endFill=0;dashed=1;endSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SIA-REAL-CO02-09" edge="1" parent="1" source="SIA-CO02" style="html=1;endArrow=block;endFill=0;dashed=1;endSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="SIA-UC09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

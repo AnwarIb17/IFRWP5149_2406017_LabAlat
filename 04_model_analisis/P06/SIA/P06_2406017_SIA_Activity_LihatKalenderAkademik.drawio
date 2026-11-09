@@ -1,0 +1,78 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram name="Activity Diagram Kalender Akademik" id="activity_kalender_akademik">
+    <mxGraphModel dx="1473" dy="2014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="col_civitas" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Civitas Akademika (Mahasiswa &amp; Dosen)" vertex="1">
+          <mxGeometry height="800" width="240" x="20" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_start_to_buka" edge="1" parent="col_civitas" source="node_start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_buka_menu">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="node_start" parent="col_civitas" style="ellipse;fillColor=strokeColor;html=1;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="105" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="node_buka_menu" parent="col_civitas" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="Membuka menu Kalender Akademik" vertex="1">
+          <mxGeometry height="60" width="180" x="30" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="node_pesan_galat" parent="col_civitas" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" value="Menerima pesan galat (data kalender gagal dimuat)" vertex="1">
+          <mxGeometry height="60" width="180" x="30" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="col_sistem" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Sistem SIA" vertex="1">
+          <mxGeometry height="800" width="360" x="260" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="node_tampil_kalender" parent="col_sistem" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Menampilkan halaman kalender akademik beserta daftar agenda" vertex="1">
+          <mxGeometry height="60" width="180" x="50" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="node_cek_koneksi" parent="col_sistem" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="koneksi jaringan?" vertex="1">
+          <mxGeometry height="80" width="100" x="90" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="node_merge" parent="col_sistem" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="120" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="node_end" parent="col_sistem" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="125" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_tampil_to_cek" edge="1" parent="col_sistem" source="node_tampil_kalender" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_cek_koneksi">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_merge_to_end" edge="1" parent="col_sistem" source="node_merge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="node_end">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_buka_to_tampil" edge="1" parent="1" source="node_buka_menu" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_tampil_kalender">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_cek_to_galat" edge="1" parent="1" source="node_cek_koneksi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_pesan_galat">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="190" />
+              <mxPoint x="320" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_terputus" connectable="0" parent="edge_cek_to_galat" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[ Terputus ]" vertex="1">
+          <mxGeometry relative="1" x="-0.0592" y="-3" as="geometry">
+            <mxPoint x="-10" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_cek_to_merge_normal" edge="1" parent="1" source="node_cek_koneksi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_merge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="190" />
+              <mxPoint x="510" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label_tersedia" connectable="0" parent="edge_cek_to_merge_normal" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="[ Normal / Tersedia ]" vertex="1">
+          <mxGeometry relative="1" x="-0.218" y="2" as="geometry">
+            <mxPoint x="35" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge_galat_to_merge" edge="1" parent="1" source="node_pesan_galat" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=block;endFill=1;" target="node_merge">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
